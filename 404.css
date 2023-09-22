@@ -87,7 +87,7 @@ body {
   letter-spacing: -0.49px;
 }
 
-@media (max-width: 376px) {
+@media (max-width: 480px) {
   .main-tittle {
     margin-bottom: 50px;
     font-size: 18px;
