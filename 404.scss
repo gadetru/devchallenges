@@ -103,12 +103,14 @@ body{
 
 @media(max-width: 480px){
     .main-tittle{
-        margin-bottom:  50px;
+        margin-bottom:  20px;
         font-size: 18px;
         padding-left: 20px;
     }
     .container{
     flex-direction: column;
+    box-sizing: border-box;
+
     }
 
     .img-container{
@@ -117,7 +119,7 @@ body{
         align-items: center;
         justify-content: center;
         margin: auto;
-        margin-bottom: 80px;
+        margin-bottom: 20px;
         img{
             
             width: 286px;
@@ -126,25 +128,43 @@ body{
         }
     }
     .message-container{
+        box-sizing: border-box;
+
         p{
-            padding-right: 0;
+            box-sizing: border-box;
+
+            padding: 0;
+            //padding-right: 0;
             font-size: 48px;
             letter-spacing: -1.68px;
+            margin-left: 20px;
             
         }
     }
     .text-container{
+        box-sizing: border-box;
+
        p{
+        padding:0px;
+        box-sizing: border-box;
         margin-top: 0;
-        padding-right: 40px;
+        //padding-right: 40px;
         font-size: 18px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
         letter-spacing: -0.63px;
+        margin-left: 20px;
+
     
        }
-       margin-bottom: 40px;
+      margin-bottom: 40px;
+    }
+    .button-container{
+        padding: 0px;
+        button{
+            margin-left: 20px;
+        }
     }
 
     
